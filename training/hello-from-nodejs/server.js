@@ -11,9 +11,5 @@ app.get('/', (req, res) => {
   res.send('Hello from Node.js');
 });
 
-app.get('/hello', (req, res) => {
-  res.send('Hello from Node.js');
-});
-
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);

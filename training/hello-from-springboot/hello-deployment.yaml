@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: hello
-        image: hello-from-nodejs:1.0
+        image: hello-from-springboot:1.0
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 4000
+        - containerPort: 8080
         
