@@ -19,4 +19,4 @@ spec:
         image: hello-from-nodejs:1.0
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8080
+        - containerPort: 4000
