@@ -1,0 +1,22 @@
+{
+  "name": "hello-from-nodejs",
+  "version": "1.0.0",
+  "description": "Hello World from Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VXCompany/Kubernetes-Ramp-Up.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Yuri Burger",
+  "license": "MIT",
+  "homepage": "https://github.com/VXCompany/Kubernetes-Ramp-Up#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
