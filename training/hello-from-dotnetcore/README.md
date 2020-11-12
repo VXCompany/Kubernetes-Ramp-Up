@@ -1,1 +1,0 @@
-# Demo app voor .Net Core
