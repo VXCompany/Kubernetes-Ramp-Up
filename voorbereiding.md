@@ -40,13 +40,6 @@ kubectl get pods #retourneert na nieuwe installatie "No resources found in defau
 kubectl get node #retourneert iets in de trant van "docker-desktop   Ready    master   36d   v1.16.6-beta.0"
 ```
 
-### De demo apps
-Er staan drie demo apps in de "training" folder. In de demo tijdens de studiemiddag maak ik gebruik van de Node.js app, maar je bent vrij om straks 1 van de andere apps te gebruiken. De stappen zijn voor de apps vergelijkbaar.
-
-- [hello-from-dotnet](training/hello-from-dotnet/README.md)
-- [hello-from-nodejs](training/hello-from-nodejs/README.md)
-- [hello-from-springboot](training/hello-from-springboot/README.md)
-
 ### Optioneel: Installeer WSL2 op Windows (Windows Subsystem for Linux)
 Wanneer je op Windows werkt is het raadzaam om WSL2 te installeren. Dit vraagt wel een bepaalde versie van Windows 10, maar als je de stappen in de documentatie volgt kom je er achter of je systeem geschikt is. Het is een optionele stap, maar WSL geeft je wel een fijne omgeving (en betere performance) als je straks verder gaat met het ontwikkelen op Kubernetes. 
 
