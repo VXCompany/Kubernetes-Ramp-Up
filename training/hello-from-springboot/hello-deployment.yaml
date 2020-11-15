@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: hello
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: hello-from-springboot:1.0
+        image: hello-app:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
