@@ -9,3 +9,5 @@ In het tweede deel van de training besteden we aandacht aan het hands-on deel. J
 
 ### De demo apps
 Er staan drie demo apps in de "training" folder. In de demo tijdens de studiemiddag maak ik gebruik van de Node.js app, maar je bent vrij om straks 1 van de andere apps te gebruiken. De stappen zijn straks voor deze apps vergelijkbaar en hoef je dus NIET vooraf uit te voeren.
+
+Om de stappen uit de demo te volgen kun je [demo/hands-on script](handson.md) gebruiken. 

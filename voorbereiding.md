@@ -12,6 +12,8 @@ Na de installatie van Docker Desktop is het inschakelen van Kubernetes slechts e
 
 ![Inschakelen Kubernetes](images/kubernetes.png)
 
+Let op: als je lokaal al een andere Kubernetes versie gebruikt (bijvoorbeeld MiniKube), dan zorgt het inschakelen van Kubernetes waarschijnlijk voor problemen. Kies dan voor Minikube of vervang deze door Docker Desktop + Kubernetes.
+
 ### Installatie van Visual Studio Code 
 In de demo gebruik ik Visual Studio Code, maar je kunt natuurlijk zelf een andere editor gebruiken. Mocht je VS Code op Mac of Windows willen installeren, dan volg je de stappen hier: https://code.visualstudio.com/download 
 
