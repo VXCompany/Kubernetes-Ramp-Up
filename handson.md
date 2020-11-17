@@ -6,9 +6,15 @@ Om 1 van de demo apps te builden, kies je de juiste directory uit de training fo
 - training/hello-from-nodejs
 - training/hello-from-springboot
 
-In de root van de demo app folder vind je de Dockerfile. Deze build en tag je met:
+In de root van de demo app folder vind je de Dockerfile. Deze build en tag je met 1 van de volgende commando's:
 ```
-docker build . -t hello-app:1.0
+# kies de versie van de app die je wilt gebruiken
+
+docker build . -t hello-app-from-dotnet:1.0
+
+docker build . -t hello-app-from-nodejs:1.0
+
+docker build . -t hello-app-from-springboot:1.0
 ```
 In het geval van de Node.js app is de build eenvoudig, maar voor de .NET en Spring Boot app gebeurt er in de Docker build iets extra's: de software build vindt ook plaats in een Docker stap. Dit betekent, dat je dus lokaal geen SDK/JDK nodig hebt om de software te bouwen!
 
