@@ -1,10 +1,11 @@
-FROM openjdk:11.0.9.1-jdk AS build-env
+FROM maven:3.6.3-jdk-11 as build-env
 
 WORKDIR /app
 
 # Copy everything and build
 COPY . ./
-RUN ./mvnw package
+
+RUN mvn package
 
 # Build runtime image
 FROM openjdk:11.0.9-jre
