@@ -16,6 +16,7 @@ COPY --from=build-env /app/out .
 
 EXPOSE 5000
 
+# Set the runtime port
 ENV ASPNETCORE_URLS=http://+:5000
 
 ENTRYPOINT ["dotnet", "hello-from-dotnet.dll"]
