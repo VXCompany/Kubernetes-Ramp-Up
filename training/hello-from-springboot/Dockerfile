@@ -14,4 +14,4 @@ COPY --from=build-env /app/target/hello-from-springboot-0.0.1-SNAPSHOT.jar .
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","/hello-from-springboot-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/app/hello-from-springboot-0.0.1-SNAPSHOT.jar"]
